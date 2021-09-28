@@ -21,7 +21,7 @@ let shufffleOrder = () => {
 
     for( let i in order) {
         let elementColor = createColorElement(order[i]);
-        lightColor(elementColor, Number{i} + 1);
+        lightColor(elementColor, Number(i) + 1);
     }
 }
 
