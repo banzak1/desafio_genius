@@ -13,7 +13,7 @@ body {
 
 .genius {
         display: grid;
-        grid-template-areas: 'green red' 'yellow blue';
+        grid-template-areas: 'verde vermelho' 'amarelo azul';
         grid-gap: 10px;
         border: 1px solid #ffffff;
         background-color: #ffffff;
@@ -21,3 +21,32 @@ body {
         width: 700px;
         height: 700px;
 }
+
+.blue {
+    grid-area: azul;
+    background-color: rgb(7, 31, 216);
+    border-bottom-right-radius: 100%;
+}
+
+.red {
+    grid-area: vermelho;
+    background-color: rgb(216, 7, 7);
+    border-top-right-radius: 100%;
+}
+
+.yellow {
+    grid-area: amarelo;
+    background-color: rgb(255, 226, 4);
+    border-bottom-left-radius: 100%;
+}
+
+.green {
+    grid-area: verde;
+    background-color: rgb(31, 216, 7);
+    border-top-left-radius: 100%;
+}
+
+.selected {
+    opacity: 0.8;
+}
+
